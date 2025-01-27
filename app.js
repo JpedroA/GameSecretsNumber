@@ -13,6 +13,7 @@ function mensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do Numero Secreto');
     exibirTextoNaTela('p', 'escolha um numero entre 1 e 10'); 
 }
+
 mensagemInicial();
 
 function verificarChute() {
@@ -62,4 +63,3 @@ function reiniciarJogo(){
     mensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
-
